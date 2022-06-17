@@ -1,0 +1,1 @@
+docker exec -it solace /usr/sw/loads/currentload/bin/cli -A

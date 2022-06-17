@@ -1,0 +1,10 @@
+curl http://localhost:8080/SEMP -u admin:admin -d "<rpc semp-version='soltr/5_5'> <show> <message-vpn> <vpn-name>default</vpn-name> <stats/> </message-vpn> </show> </rpc>"
+curl http://localhost:8080/SEMP -u admin:admin -d "<rpc semp-version='soltr/5_5'> <show> <client> <name>*</name> </client> </show> </rpc>"
+curl http://localhost:8080/SEMP -u admin:admin -d "<rpc semp-version='soltr/5_5'> <show> <version> </version> </show> </rpc>"
+
+curl http://localhost:8080/SEMP -u admin:admin -d "<rpc semp-version='soltr/5_5'> <show> <version> </version> </show> </rpc>"
+
+
+
+https://docs.solace.com/Best-Practices/Gathering-Stats-SEMP.htm#Importan
+https://docs.solace.com/Solace-CLI/Using-Solace-CLI.htm
